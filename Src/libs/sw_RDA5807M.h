@@ -5,8 +5,8 @@
  *      Author: szymon.wroblewski
  */
 
-#ifndef LIBS_TEA5767_H_
-#define LIBS_TEA5767_H_
+#ifndef LIBS_SW_RDA5807M_H_
+#define LIBS_SW_RDA5807M_H_
 
 
 
@@ -100,4 +100,4 @@ void RDA5807M_ProcessData();
 
 
 
-#endif /* LIBS_TEA5767_H_ */
+#endif /* LIBS_SW_RDA5807M_H_ */

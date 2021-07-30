@@ -11,9 +11,8 @@
 #include "SW_TIMERS/sw_soft_timers.h"
 #include "sw_i2c_simple.h"
 
-#include "TEA5767.h"
 
-//#include "RDA5807.h"
+#include "sw_RDA5807M.h"
 
 #define TEA5767_ADDR		0x00  // TO nie tak!!!!
 
@@ -137,15 +136,6 @@ void RDA5807M_PowerOff() {
 	WriteReg[0] = WriteReg[0] ^ RDA_POWER;
 	RDA5807M_WriteAll();
 	power = 0;
-}
-
-void RDA5807M_Reset() {
-	RDA5807M_Init();
-	RDA5807M_PowerOn();
-	RDA5807M_RDS_Init();
-	RDA5807M_RDS_();
-	RDA5807M_Volume(3);   //InitialVolume
-	RDA5807M_Frequency(DefaultFreq + 0.3);    //DefaultFreq
 }
 
 void RDA5807M_Volume(uint8_t vol) {
@@ -279,6 +269,16 @@ void RDA5807M_RDS_() {
 	}
 	RDA5807M_WriteAll();
 }
+
+void RDA5807M_Reset() {
+	RDA5807M_Init();
+	RDA5807M_PowerOn();
+	RDA5807M_RDS_Init();
+	RDA5807M_RDS_();
+	RDA5807M_Volume(3);   //InitialVolume
+	RDA5807M_Frequency(DefaultFreq + 0.3);    //DefaultFreq
+}
+
 
 void read_chip_ver(char chip_adr) {   //88FF
 //	char buf_l, buf_h, vertxt[4];
