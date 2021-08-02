@@ -606,60 +606,44 @@ Discarded input sections
                 0x0000000000000000        0x2 ./Src/libs/sw_RDA5807M.o
  .text.Wire_requestFrom
                 0x0000000000000000        0x4 ./Src/libs/sw_RDA5807M.o
- .text.setRegister
-                0x0000000000000000        0xe ./Src/libs/sw_RDA5807M.o
- .text.getRegister
-                0x0000000000000000       0x14 ./Src/libs/sw_RDA5807M.o
- .text.updateRegister
-                0x0000000000000000       0x1c ./Src/libs/sw_RDA5807M.o
  .text.RDA5807M__begin
-                0x0000000000000000       0x1c ./Src/libs/sw_RDA5807M.o
+                0x0000000000000000        0x2 ./Src/libs/sw_RDA5807M.o
  .text.RDA5807M__end
-                0x0000000000000000        0xc ./Src/libs/sw_RDA5807M.o
- .text.RDA5807M__setRegister
-                0x0000000000000000        0x2 ./Src/libs/sw_RDA5807M.o
- .text.RDA5807M__getRegister
-                0x0000000000000000        0x4 ./Src/libs/sw_RDA5807M.o
- .text.RDA5807M__setRegisterBulk
-                0x0000000000000000        0x2 ./Src/libs/sw_RDA5807M.o
- .text.RDA5807M__getRegisterBulk
-                0x0000000000000000        0x2 ./Src/libs/sw_RDA5807M.o
- .text.RDA5807M__setRegisterBulk1
                 0x0000000000000000        0x2 ./Src/libs/sw_RDA5807M.o
  .text.RDA5807M__getRegisterBulk1
                 0x0000000000000000       0x10 ./Src/libs/sw_RDA5807M.o
  .text.RDA5807M__volumeUp
-                0x0000000000000000       0x20 ./Src/libs/sw_RDA5807M.o
+                0x0000000000000000        0x4 ./Src/libs/sw_RDA5807M.o
  .text.RDA5807M__volumeDown
-                0x0000000000000000       0x36 ./Src/libs/sw_RDA5807M.o
+                0x0000000000000000        0x4 ./Src/libs/sw_RDA5807M.o
  .text.RDA5807M__seekUp
-                0x0000000000000000       0x1c ./Src/libs/sw_RDA5807M.o
+                0x0000000000000000        0x2 ./Src/libs/sw_RDA5807M.o
  .text.RDA5807M__seekDown
-                0x0000000000000000       0x1c ./Src/libs/sw_RDA5807M.o
+                0x0000000000000000        0x2 ./Src/libs/sw_RDA5807M.o
  .text.RDA5807M__mute
-                0x0000000000000000       0x10 ./Src/libs/sw_RDA5807M.o
+                0x0000000000000000        0x2 ./Src/libs/sw_RDA5807M.o
  .text.RDA5807M__unMute
-                0x0000000000000000       0x1e ./Src/libs/sw_RDA5807M.o
+                0x0000000000000000        0x2 ./Src/libs/sw_RDA5807M.o
  .text.RDA5807M__getBandAndSpacing
-                0x0000000000000000       0x1a ./Src/libs/sw_RDA5807M.o
+                0x0000000000000000        0x4 ./Src/libs/sw_RDA5807M.o
  .text.RDA5807M__getFrequency
-                0x0000000000000000       0x38 ./Src/libs/sw_RDA5807M.o
+                0x0000000000000000       0x14 ./Src/libs/sw_RDA5807M.o
  .text.RDA5807M__setFrequency
-                0x0000000000000000       0x64 ./Src/libs/sw_RDA5807M.o
+                0x0000000000000000       0x4c ./Src/libs/sw_RDA5807M.o
  .text.RDA5807M__getRSSI
-                0x0000000000000000        0xe ./Src/libs/sw_RDA5807M.o
+                0x0000000000000000        0x4 ./Src/libs/sw_RDA5807M.o
  .rodata.RDA5807M_BandHigherLimits
                 0x0000000000000000        0xa ./Src/libs/sw_RDA5807M.o
  .rodata.RDA5807M_BandLowerLimits
                 0x0000000000000000        0xa ./Src/libs/sw_RDA5807M.o
  .rodata.RDA5807M_ChannelSpacings
                 0x0000000000000000        0x4 ./Src/libs/sw_RDA5807M.o
- .debug_info    0x0000000000000000     0x2146 ./Src/libs/sw_RDA5807M.o
- .debug_abbrev  0x0000000000000000      0x46b ./Src/libs/sw_RDA5807M.o
- .debug_loc     0x0000000000000000      0x3de ./Src/libs/sw_RDA5807M.o
+ .debug_info    0x0000000000000000     0x1877 ./Src/libs/sw_RDA5807M.o
+ .debug_abbrev  0x0000000000000000      0x3c5 ./Src/libs/sw_RDA5807M.o
+ .debug_loc     0x0000000000000000      0x1a5 ./Src/libs/sw_RDA5807M.o
  .debug_aranges
-                0x0000000000000000       0xe0 ./Src/libs/sw_RDA5807M.o
- .debug_ranges  0x0000000000000000      0x100 ./Src/libs/sw_RDA5807M.o
+                0x0000000000000000       0x70 ./Src/libs/sw_RDA5807M.o
+ .debug_ranges  0x0000000000000000       0x90 ./Src/libs/sw_RDA5807M.o
  .debug_macro   0x0000000000000000      0x141 ./Src/libs/sw_RDA5807M.o
  .debug_macro   0x0000000000000000      0xa8a ./Src/libs/sw_RDA5807M.o
  .debug_macro   0x0000000000000000      0x174 ./Src/libs/sw_RDA5807M.o
@@ -687,10 +671,10 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x28 ./Src/libs/sw_RDA5807M.o
  .debug_macro   0x0000000000000000       0x94 ./Src/libs/sw_RDA5807M.o
  .debug_macro   0x0000000000000000      0x3e4 ./Src/libs/sw_RDA5807M.o
- .debug_line    0x0000000000000000      0xc29 ./Src/libs/sw_RDA5807M.o
- .debug_str     0x0000000000000000    0x48ceb ./Src/libs/sw_RDA5807M.o
+ .debug_line    0x0000000000000000      0x9b8 ./Src/libs/sw_RDA5807M.o
+ .debug_str     0x0000000000000000    0x489d1 ./Src/libs/sw_RDA5807M.o
  .comment       0x0000000000000000       0x54 ./Src/libs/sw_RDA5807M.o
- .debug_frame   0x0000000000000000      0x248 ./Src/libs/sw_RDA5807M.o
+ .debug_frame   0x0000000000000000      0x150 ./Src/libs/sw_RDA5807M.o
  .ARM.attributes
                 0x0000000000000000       0x2c ./Src/libs/sw_RDA5807M.o
  .group         0x0000000000000000        0xc ./Src/libs/sw_i2c_simple.o
