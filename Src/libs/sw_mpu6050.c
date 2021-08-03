@@ -7,7 +7,7 @@
 #include "sw_mcu_conf.h"
 #include "SW_BOARD/gpio.h"
 #include "SW_TIMERS/sw_soft_timers.h"
-#include "sw_i2c_simple.h"
+#include "sw_i2c_simple_v2.h"
 
 #include <math.h>
 #include <stdlib.h>
@@ -48,7 +48,7 @@ static int16_t MPU6050__readRegister16( uint8_t reg ) {
 	int16_t value = 0;
 
 	uint8_t buff[2];
-	sw_i2c_read_block( MPU6050_ADDRESS, reg, 2, buff );
+	sw_i2c_read_bulk( MPU6050_ADDRESS, reg, 2, buff );
 	uint8_t vha = buff[0];
 	uint8_t vla = buff[1];
 	value = vha << 8 | vla;
@@ -57,7 +57,7 @@ static int16_t MPU6050__readRegister16( uint8_t reg ) {
 
 static void MPU6050__writeRegister16( uint8_t reg, int16_t value ) {
 	uint8_t buff[2] = { ((uint8_t)value >> 8), (uint8_t)value };
-	sw_i2c_write_block( MPU6050_ADDRESS, reg, 2, buff );
+	sw_i2c_write_bulk( MPU6050_ADDRESS, reg, 2, buff );
 }
 
 // Read register bit
@@ -483,7 +483,7 @@ struct Vector MPU6050__readRawGyro(void) {
 //	rg.ZAxis = zha << 8 | zla;
 
 	uint8_t buff[6];
-	sw_i2c_read_block( MPU6050_ADDRESS, MPU6050_REG_GYRO_XOUT_H, 6, buff );
+	sw_i2c_read_bulk( MPU6050_ADDRESS, MPU6050_REG_GYRO_XOUT_H, 6, buff );
 	uint8_t xha = buff[0];
 	uint8_t xla = buff[1];
 	uint8_t yha = buff[2];

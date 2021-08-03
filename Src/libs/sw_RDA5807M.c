@@ -14,7 +14,7 @@ typedef uint8_t  byte;
 #include "SW_BOARD/sw_led_blink_debug.h"
 #include "SW_TIMERS/sw_soft_timers.h"
 
-#include "sw_i2c_simple.h"
+#include "sw_i2c_simple_v2.h"
 
 
 #include "sw_RDA5807M.h"
@@ -38,7 +38,7 @@ byte Wire_requestFrom( byte addr, byte quantity, bool stop ) {
 	return 0;
 }
 
-static void RDA5807M__setRegister(byte reg, const word value) {
+static void RDA5807M__setRegister( byte reg, const word value ) {
 //    Wire_beginTransmission(RDA5807M_I2C_ADDR_RANDOM);
 //    Wire_write(reg);
 //    Wire_write( highByte(value));
