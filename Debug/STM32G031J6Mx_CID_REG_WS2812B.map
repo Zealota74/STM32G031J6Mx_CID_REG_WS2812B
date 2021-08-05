@@ -563,6 +563,224 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x28 ./Src/libs/SW_WS2812/sw_ws2812_FX.o
  .debug_macro   0x0000000000000000       0x28 ./Src/libs/SW_WS2812/sw_ws2812_FX.o
  .debug_macro   0x0000000000000000       0x2e ./Src/libs/SW_WS2812/sw_ws2812_FX.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .group         0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .text          0x0000000000000000        0x0 ./Src/libs/SparkFun_APDS9960.o
+ .data          0x0000000000000000        0x0 ./Src/libs/SparkFun_APDS9960.o
+ .bss           0x0000000000000000        0x0 ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__resetGestureParameters
+                0x0000000000000000       0x54 ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__wireWriteDataByte
+                0x0000000000000000       0x18 ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__decodeGesture
+                0x0000000000000000       0xfc ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__wireReadDataByte
+                0x0000000000000000       0x1e ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__setGestureMode
+                0x0000000000000000       0x28 ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__getMode
+                0x0000000000000000       0x1a ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__setMode
+                0x0000000000000000       0x42 ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__isGestureAvailable
+                0x0000000000000000       0x1e ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__readGesture
+                0x0000000000000000      0x2fc ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__enablePower
+                0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__disablePower
+                0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__readAmbientLight
+                0x0000000000000000       0x18 ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__readRedLight
+                0x0000000000000000       0x18 ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__readGreenLight
+                0x0000000000000000       0x18 ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__readBlueLight
+                0x0000000000000000       0x18 ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__readProximity
+                0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__getLEDDrive
+                0x0000000000000000       0x1c ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__setLEDDrive
+                0x0000000000000000       0x2a ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__getProximityGain
+                0x0000000000000000       0x1e ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__setProximityGain
+                0x0000000000000000       0x2a ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__getAmbientLightGain
+                0x0000000000000000       0x1e ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__setAmbientLightGain
+                0x0000000000000000       0x28 ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__getGestureGain
+                0x0000000000000000       0x1e ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__setGestureGain
+                0x0000000000000000       0x2a ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__getGestureLEDDrive
+                0x0000000000000000       0x1e ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__setGestureLEDDrive
+                0x0000000000000000       0x2a ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__getLightIntLowThreshold
+                0x0000000000000000       0x3c ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__setLightIntLowThreshold
+                0x0000000000000000       0x1a ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__getLightIntHighThreshold
+                0x0000000000000000       0x3c ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__setLightIntHighThreshold
+                0x0000000000000000       0x1a ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__getProximityIntLowThreshold
+                0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__setProximityIntLowThreshold
+                0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__getProximityIntHighThreshold
+                0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__setProximityIntHighThreshold
+                0x0000000000000000        0xc ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__getAmbientLightIntEnable
+                0x0000000000000000       0x1e ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__setAmbientLightIntEnable
+                0x0000000000000000       0x2a ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__enableLightSensor
+                0x0000000000000000       0x34 ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__disableLightSensor
+                0x0000000000000000       0x16 ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__getProximityIntEnable
+                0x0000000000000000       0x1e ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__setProximityIntEnable
+                0x0000000000000000       0x2a ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__enableProximitySensor
+                0x0000000000000000       0x3e ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__disableProximitySensor
+                0x0000000000000000       0x16 ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__getGestureIntEnable
+                0x0000000000000000       0x1e ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__setGestureIntEnable
+                0x0000000000000000       0x2a ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__init
+                0x0000000000000000      0x1c4 ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__enableGestureSensor
+                0x0000000000000000       0x8e ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__disableGestureSensor
+                0x0000000000000000       0x28 ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__clearAmbientLightInt
+                0x0000000000000000        0xe ./Src/libs/SparkFun_APDS9960.o
+ .text.SparkFun_APDS9960__clearProximityInt
+                0x0000000000000000        0xe ./Src/libs/SparkFun_APDS9960.o
+ .bss.gesture_data_
+                0x0000000000000000       0x84 ./Src/libs/SparkFun_APDS9960.o
+ .bss.gesture_far_count_
+                0x0000000000000000        0x4 ./Src/libs/SparkFun_APDS9960.o
+ .bss.gesture_lr_count_
+                0x0000000000000000        0x4 ./Src/libs/SparkFun_APDS9960.o
+ .bss.gesture_lr_delta_
+                0x0000000000000000        0x4 ./Src/libs/SparkFun_APDS9960.o
+ .bss.gesture_motion_
+                0x0000000000000000        0x4 ./Src/libs/SparkFun_APDS9960.o
+ .bss.gesture_near_count_
+                0x0000000000000000        0x4 ./Src/libs/SparkFun_APDS9960.o
+ .bss.gesture_state_
+                0x0000000000000000        0x4 ./Src/libs/SparkFun_APDS9960.o
+ .bss.gesture_ud_count_
+                0x0000000000000000        0x4 ./Src/libs/SparkFun_APDS9960.o
+ .bss.gesture_ud_delta_
+                0x0000000000000000        0x4 ./Src/libs/SparkFun_APDS9960.o
+ .debug_info    0x0000000000000000     0x3555 ./Src/libs/SparkFun_APDS9960.o
+ .debug_abbrev  0x0000000000000000      0x4f2 ./Src/libs/SparkFun_APDS9960.o
+ .debug_loc     0x0000000000000000      0xc7d ./Src/libs/SparkFun_APDS9960.o
+ .debug_aranges
+                0x0000000000000000      0x1a0 ./Src/libs/SparkFun_APDS9960.o
+ .debug_ranges  0x0000000000000000      0x1f8 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000      0x1f7 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000      0xa8a ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x2e ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x28 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x22 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x8e ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x51 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000      0x103 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x6a ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000      0x1df ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x1c ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x22 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0xb5 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000      0x4da ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000      0x11f ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000     0xaa73 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x3c ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x22 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x22 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x2e ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x4c ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x6a ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x28 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x28 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x94 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x18 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x52 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x3c ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x34 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000      0x10e ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x8d ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x43 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x34 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x58 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x71 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x1c ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000      0x12a ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000      0x333 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000       0x29 ./Src/libs/SparkFun_APDS9960.o
+ .debug_macro   0x0000000000000000      0x34c ./Src/libs/SparkFun_APDS9960.o
+ .debug_line    0x0000000000000000     0x1bb6 ./Src/libs/SparkFun_APDS9960.o
+ .debug_str     0x0000000000000000    0x4bc8a ./Src/libs/SparkFun_APDS9960.o
+ .comment       0x0000000000000000       0x54 ./Src/libs/SparkFun_APDS9960.o
+ .debug_frame   0x0000000000000000      0x520 ./Src/libs/SparkFun_APDS9960.o
+ .ARM.attributes
+                0x0000000000000000       0x2c ./Src/libs/SparkFun_APDS9960.o
  .group         0x0000000000000000        0xc ./Src/libs/sw_RDA5807M.o
  .group         0x0000000000000000        0xc ./Src/libs/sw_RDA5807M.o
  .group         0x0000000000000000        0xc ./Src/libs/sw_RDA5807M.o
@@ -1548,6 +1766,7 @@ LOAD ./Src/libs/SW_BOARD/sw_led_blink_debug.o
 LOAD ./Src/libs/SW_TIMERS/sw_soft_timers.o
 LOAD ./Src/libs/SW_WS2812/sw_ws2812.o
 LOAD ./Src/libs/SW_WS2812/sw_ws2812_FX.o
+LOAD ./Src/libs/SparkFun_APDS9960.o
 LOAD ./Src/libs/sw_RDA5807M.o
 LOAD ./Src/libs/sw_i2c_simple_v2.o
 LOAD ./Src/libs/sw_mpu6050.o
