@@ -13,6 +13,15 @@
 
 
 
+int zmienna = 12;
+
+void zmienna_init2(void) {
+	zmienna = 7;
+}
+
+
+//STRUCT_t simon;
+
 
 static INLINE void sw_i2c_autoend_on(void)  { hI2Cx->I2C->CR2 |=  I2C_CR2_AUTOEND; }
 static INLINE void sw_i2c_autoend_off(void) { hI2Cx->I2C->CR2 &= ~I2C_CR2_AUTOEND; }

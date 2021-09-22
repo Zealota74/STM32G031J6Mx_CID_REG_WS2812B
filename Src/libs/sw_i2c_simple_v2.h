@@ -47,6 +47,17 @@ typedef struct {
 	GPIO_TypeDef *  scl_port, * sda_port;
 	T_GPIO_PIN 	    scl_pin, 	sda_pin;
 } I2C_t;
+
+typedef struct {
+	uint8_t a;
+	uint8_t b;
+} STRUCT_t;
+
+STRUCT_t simon;
+
+extern void zmienna_init2(void);
+
+
 typedef enum {
 	I2C_Ok = 0, I2C_Error = 1, I2C_Nack = 2
 } I2CSTATUS;
