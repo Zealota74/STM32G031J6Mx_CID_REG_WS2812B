@@ -55,3 +55,34 @@ new_type_t * struct_init(void) {
 	return (new_type_t * )&variable2;
 }
 // -------------------------------------------------------------
+
+
+uint8_t utf8_t0_ascii( uint8_t ascii ) {
+	static uint8_t c1;
+
+	if ( ascii < 128 ) {			// Standard ASCII-set 0..0x7F handling
+		c1 = 0;
+		return ( ascii );
+	}
+	// get previous input
+	uint8_t last = c1;				// get last char
+	c1 = ascii;						// remember actual character
+
+	switch (last) {    				// conversion depending on first UTF8-character
+		case 0xC2:
+			return (ascii);
+			break;
+		case 0xC3:
+			return (ascii | 0xC0);
+			break;
+		case 0xC4:
+			return (ascii | 0xC0);
+			break;
+		case 0x82:
+			if (ascii == 0xAC) {
+				return (0x80);		// special case Euro-symbol
+			}
+	}
+	return 0;						// otherwise: return zero, if character has to be ignored
+}
+

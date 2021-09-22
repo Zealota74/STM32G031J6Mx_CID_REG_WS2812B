@@ -15,11 +15,12 @@
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 
+char napis[] = "Gówno";
 
 int main(void) {
 
 	simon.a	= 5;
-	simon.b = 5;
+	simon.b = (uint8_t)napis[1];
 
 	set_variable( 120 );
 	zmienna_init2();
